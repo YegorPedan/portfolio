@@ -8,4 +8,4 @@ from flask import render_template
 @app.route("/index")
 @app.route("/home")
 def index():
-    return "hallo world"
+    return render_template("index.html")
