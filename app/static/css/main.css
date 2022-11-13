@@ -15,6 +15,7 @@ body {
 
 
 /* header block */
+
 .header-inner {
     display: flex;
     justify-content: space-between;
@@ -71,6 +72,7 @@ body {
 
 .main {
     margin-top: 12.4rem;
+    height: 100vh;
 }
 
 .main-information {
@@ -90,7 +92,7 @@ body {
     line-height: 8.4rem;
 }
 
-.about {
+.about_me-text {
    font-weight: 400; 
    font-size: 1.8rem;
    line-height: 2.4rem;
@@ -140,4 +142,73 @@ body {
 
 .main-photo {
     border-radius: 25px;
+}
+
+/* /main */
+
+
+/* about */
+
+.resume {
+    padding: 112px;
+}
+
+.resume-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-photo{
+    display: block;
+    border-radius: 21px;
+}
+
+.resume-title {
+    color: #132238;
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 5rem;
+}
+
+.resume-text {
+    max-width: 53.6rem;
+    color: #87909D;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+
+    margin-top: 3.2rem;
+}
+
+.buttons > a.btn {
+    background-color: #a53dff;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    transition: color .2s linear;
+}
+
+.buttons {
+    margin-top: 3.2rem;
+}
+
+.buttons > a.btn:hover {
+    color: gold;
+}
+
+.download-image {
+    filter: invert(44%) sepia(83%) saturate(5455%) hue-rotate(256deg) brightness(98%) contrast(107%);
+    max-width: 15px;
+    margin-right:  12px;
+}
+
+.download {
+    padding: 12px 24px;
+    background: transparent;
+    border: 1px solid #A53DFF;
+    color: #A53DFF;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-radius: 4px;
 }
