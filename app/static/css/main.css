@@ -46,16 +46,98 @@ body {
 }
 
 .header-menu__item {
-    padding: 12px 24px;
     font-family: "Work Sans";
     font-weight: 500;
     font-size: 1.6rem;
     color: #333333;
 
+}
+
+.btn {
+    padding: 12px 24px;
     transition: background-color .2s linear;
 }
 
-.header-menu__item:hover {
+.btn:hover {
     color: white;
-    background-color: #A53DFF;
+    background-color: #a53dff;
+}
+
+/* /header */
+
+
+
+/* main content */
+
+.main {
+    margin-top: 12.4rem;
+}
+
+.main-information {
+    margin-top: 5.4rem;
+}
+
+.main-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 7.2rem;
+    color: #132238;
+    line-height: 8.4rem;
+}
+
+.about {
+   font-weight: 400; 
+   font-size: 1.8rem;
+   line-height: 2.4rem;
+   color: #556070;
+   max-width: 648px;
+}
+
+.about > span {
+    color: #132238;
+}
+
+.mt-24 {
+    margin-top: 2.4rem;
+}
+
+.btn-active {
+    background: #8400ff;
+    color: white;
+}
+
+
+.main-experience {
+    display: flex;
+    gap: 1px;
+    margin-top: 15.9rem;
+}
+
+.experience-card {
+    background: #EDD8FF80;
+    padding: 17px 65px;
+    text-align: center;
+}
+
+.experience-title {
+    font-weight: 600;   
+    font-size: 3.2rem;
+    color: #424E60;
+}
+
+.experience-text {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #697484;
+
+    margin-top: 8px;
+}
+
+.main-photo {
+    border-radius: 25px;
 }
