@@ -150,6 +150,8 @@ body {
 
 .resume {
     padding: 112px;
+    background: rgba(247, 247, 247, .8);
+    margin-top: 5rem;
 }
 
 .resume-inner {
@@ -210,4 +212,70 @@ body {
     font-weight: 600;
     font-size: 1.6rem;
     border-radius: 4px;
+}
+
+/* /resume */
+
+
+/* portfolio */
+
+.portfolio {
+    margin-top: 5rem;
+    background: rgba(237, 216, 255, 0.2)
+}
+
+.portfolio-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cards {
+    margin-top: 7rem;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: left;
+}
+
+.card-img {
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.card-inner {
+    padding: 32px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.card-cat {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #87909D;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #132238;
+    margin-top: 4px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #556070;
+    margin-top: 12px;
+    max-width: 36rem;
+    margin-bottom: 2.4rem;
+}
+
+.arrow-right {
+    margin-left: 1rem;
+    padding-top: 2px;
 }
