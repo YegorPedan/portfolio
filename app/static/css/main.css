@@ -279,3 +279,85 @@ body {
     margin-left: 1rem;
     padding-top: 2px;
 }
+
+/* /portfolio */
+
+
+/* contact */
+
+.contact {
+    margin-top: 5rem;
+    background: rgba(247, 247, 247, .8);
+    padding-top: 8.8rem;
+}
+
+.contact-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fz-38 {
+    font-size: 3.8rem;
+}
+
+.mas-481 {
+    max-width: 48.1rem;
+}
+
+.contact-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-top: 3.5rem;
+}
+
+.contact-card {
+    padding: 14px;
+    max-height: 9.6rem;
+    max-width: 33.6rem;
+
+    display: flex;
+}
+.contact-img {
+    display: inline-block;
+    padding: 14px;
+    margin-right: 13px;
+    filter: invert(29%) sepia(31%) saturate(6518%) hue-rotate(258deg) brightness(102%) contrast(104%);
+    background: rgb(237, 216, 255, .1);
+}
+
+.contact-card__text {
+    padding-top: 10px;
+}
+
+.contact-cat {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #424E60;
+    margin-bottom: 4px;
+}
+
+.contact-info {
+    color: #132238;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+
+.contact-card:hover {
+    background: #fff;
+    cursor: pointer;
+}
+
+.contact-card:hover .contact-img{
+    background: rgba(165, 61, 255, .1);
+    filter: invert(77%) sepia(18%) saturate(0%) hue-rotate(351deg) brightness(102%) contrast(93%);
+
+
+}
+
+.contact-left {
+    margin-top: 4.6rem;
+    margin-bottom: 5rem;
+}
